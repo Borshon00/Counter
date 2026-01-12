@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.main{
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    box-shadow: 4px 4px 4px darkgray;
+    margin-top: -10px;
+}
+
+    button{
+        width: 80px;
+        height: 40px;
+        margin: 10px;
+        border-radius: 5px;
+        border: none;
+        background-color: #4CAF50;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    #increase:hover{
+        background-color: red;
+        color: white;
+        box-shadow: 3px 3px 3px darkgray;
+    }
+    #decrease:hover{
+        background-color: blue;
+        color: white;
+        box-shadow: 3px 3px 3px darkgray;
+    }
+    #reset:hover{
+        background-color: orange;
+        color: white;
+        box-shadow: 3px 3px 3px darkgray;
+    }
